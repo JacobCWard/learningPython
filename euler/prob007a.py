@@ -12,10 +12,9 @@ def is_prime(x):
 
 i=0
 
-while len(primes)<=100000:
+while len(primes)<=1000:
     if is_prime(i):
         primes.append(i)
-        print len(primes), i
     i+=1
 
 print primes[-1]
