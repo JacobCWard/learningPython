@@ -1,3 +1,9 @@
+# ~6s to run
+
+import time
+
+stTime=time.time()
+
 primes = [2]
 
 def is_prime(number):
@@ -15,4 +21,8 @@ while len(primes)<=10000:
         primes.append(i)
     i+=1
 
-print primes[-1]
+print(primes[-1])
+
+endTime=time.time()
+t1=endTime-stTime
+print(t1)

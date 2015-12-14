@@ -1,3 +1,6 @@
+# Solution from the Project Euler pdf
+#
+
 from math import floor, sqrt
 import time
 
@@ -32,7 +35,7 @@ while len(primes)<=1000000:
         primes.append(i)
     i+=1
 
-print primes[-1]
+print(primes[-1])
 
 eTime=time.time()
-print eTime-sTime
+print(eTime-sTime)
