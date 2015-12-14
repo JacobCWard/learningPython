@@ -1,3 +1,6 @@
+# This is my own solution to the problem.
+# ~10s to run
+
 import functools
 import time
 
